@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
+    "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
+    "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "projectUniqueName": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
         "projectName": "NTUT_Resturant_Finding_Assistant",
-        "projectPath": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "projectPath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\",
+        "outputPath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
