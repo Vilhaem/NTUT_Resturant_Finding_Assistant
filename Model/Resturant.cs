@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 namespace NTUT_Resturant_Finding_Assistant
 {
     public class Resturant
@@ -6,7 +5,7 @@ namespace NTUT_Resturant_Finding_Assistant
         public string Name { get; set; }
         public string Style { get; set; }
         public int PriceClass { get; set; }
-        public decimal Distance { get; set; }
+        public double Distance { get; set; }
         public string Address { get; set; }
         public double Rating { get; set; }
         

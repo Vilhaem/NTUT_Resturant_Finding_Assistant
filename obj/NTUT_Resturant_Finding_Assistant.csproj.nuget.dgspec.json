@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
+    "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
   },
   "projects": {
-    "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
+    "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "projectUniqueName": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
         "projectName": "NTUT_Resturant_Finding_Assistant",
-        "projectPath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "projectPath": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\",
+        "outputPath": "C:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Syncfusion.Blazor.Inputs": {
+              "target": "Package",
+              "version": "[20.1.0.50, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",

@@ -4,10 +4,11 @@
 // {
 //     public class ResturantStoreContext : DbContext
 //     {
+//         public DbSet<Resturant> Resturants { get; set; }
 //         public ResturantStoreContext(DbContextOptions<ResturantStoreContext> options) : base(options)
 //         {
 //         }
 
-//         public DbSet<Resturant> Resturants { get; set; }
+        
 //     }
 // }
