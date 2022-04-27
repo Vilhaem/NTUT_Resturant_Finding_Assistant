@@ -1,50 +1,17 @@
-using NTUT_Resturant_Finding_Assistant;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
-using Syncfusion.Blazor;
+using NTUT_Resturant_Finding_Assistant.Data;
+using NTUT_Resturant_Finding_Assistant;
 
 var builder = WebApplication.CreateBuilder(args);
 
-using (var context = new AppDbContext())
-{
-    context.Database.EnsureDeleted();
-    context.Database.EnsureCreated();
-    context.Resturants.Add(new Resturant{
-        Id = 1,
-        Name = "Resturant1",
-        Style = "Style1",
-        PriceClass = 1,
-        Distance = 1.1,
-        Address = "Address1",
-        Rating = 5
-    });
-    context.Resturants.Add(new Resturant{
-        Id = 2,
-        Name = "Resturant2",
-        Style = "Style2",
-        PriceClass = 2,
-        Distance = 2.2,
-        Address = "Address2",
-        Rating = 4
-    });
-    context.SaveChanges();
-    
-    var resturants = context.Resturants.ToList();
-    foreach(var resturant in resturants)
-    {
-        Console.WriteLine(resturant.Id + " " + resturant.Name + " " + resturant.Style + " " + resturant.PriceClass + " " + resturant.Distance + " " + resturant.Address + " " + resturant.Rating);
-    }
-    // ExecuteSqlRaw can be used to execute SQL command directly
-    context.Database.ExecuteSqlRaw("Delete from Resturants where Id = 2");
-    var resturantz = context.Resturants.ToList();
-    foreach(var resturant in resturantz)
-    {
-        Console.WriteLine(resturant.Id + " " + resturant.Name + " " + resturant.Style + " " + resturant.PriceClass + " " + resturant.Distance + " " + resturant.Address + " " + resturant.Rating);
-    }
-}
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSyncfusionBlazor(options =>{options.IgnoreScriptIsolation = true;});
+builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddHttpClient();
+builder.Services.AddSqlite<AppDbContext>("Data Source=Resturant.db");
 
 var app = builder.Build();
 
@@ -57,12 +24,22 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.UseAuthorization();
-
 app.MapRazorPages();
-
+app.MapBlazorHub();
+app.MapFallbackToPage("/_Host");
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+var context = app.Services.GetRequiredService<IServiceScopeFactory>();
+using (var scope = context.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.EnsureDeleted();
+    if (db.Database.EnsureCreated())
+    {
+        ResturantData.Initialize(db);
+    }
+}
 app.Run();

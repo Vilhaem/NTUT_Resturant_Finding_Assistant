@@ -1,0 +1,40 @@
+﻿@page "/"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+<PageTitle>Index</PageTitle>
+
+<div>
+    @* <h1>Try to create a Resturant Instance</h1> *@
+    <h1>These are the Resturants</h1>
+    @if (Resturants != null)
+    {
+        @foreach (var resturant in Resturants)
+        {
+            <div class="text-xl-start">
+            <span class="title">The resturant name is @resturant.Name.</span>
+            <pre>
+            The style is @resturant.Style.
+            Price Range of @resturant.getPriceLabel().
+            @resturant.Distance km away.
+            Address: @resturant.Address.
+            @resturant.Rating stars on google.
+            </pre>
+            </div>
+        }
+    }
+    @* <ResturantEditor Resturant= "Resturant"/> *@
+</div>
+@code{
+    List<Resturant> Resturants = new();
+    protected override async Task OnInitializedAsync()
+    {
+        @* Resturants.AddRange(new List<Resturant>
+        {
+            new Resturant{Name="Banks", Style="Fast food", PriceClass=0,Distance=1.5,Address="None",Rating=4.5},
+            new Resturant{Name="Hanks", Style="Fast food", PriceClass=0,Distance=0.5,Address="None",Rating=3},
+            new Resturant{Name="Lettos", Style="Italian", PriceClass=2,Distance=2,Address="None",Rating=5}
+
+        }); *@
+        Resturants = await HttpClient.GetFromJsonAsync<List<Resturant>>(NavigationManager.BaseUri + "Resturants");
+    }
+}

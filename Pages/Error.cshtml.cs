@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -8,7 +8,7 @@ namespace NTUT_Resturant_Finding_Assistant.Pages;
 [IgnoreAntiforgeryToken]
 public class ErrorModel : PageModel
 {
-    public string RequestId { get; set; }
+    public string? RequestId { get; set; }
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
@@ -24,4 +24,3 @@ public class ErrorModel : PageModel
         RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
     }
 }
-
