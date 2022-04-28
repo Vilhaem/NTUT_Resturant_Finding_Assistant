@@ -8,6 +8,8 @@ namespace NTUT_Resturant_Finding_Assistant
         public double Distance { get; set; }
         public string Address { get; set; }
         public double Rating { get; set; }
+
+        public string ImageURL { get; set; }
         
         private enum PriceClassEnum
         {

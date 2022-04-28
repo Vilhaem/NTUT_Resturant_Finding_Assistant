@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+  "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -78,7 +78,7 @@
         }
       },
       {
-        "HashCode": 1972489564,
+        "HashCode": -2042304741,
         "Kind": "Components.Component",
         "Name": "NTUT_Resturant_Finding_Assistant.Pages.Index",
         "AssemblyName": "NTUT_Resturant_Finding_Assistant",
@@ -88,13 +88,23 @@
             "TagName": "Index"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Resturant",
+            "TypeName": "NTUT_Resturant_Finding_Assistant.Resturant",
+            "Metadata": {
+              "Common.PropertyName": "Resturant"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Pages.Index"
         }
       },
       {
-        "HashCode": 1432672758,
+        "HashCode": -1917886589,
         "Kind": "Components.Component",
         "Name": "NTUT_Resturant_Finding_Assistant.Pages.Index",
         "AssemblyName": "NTUT_Resturant_Finding_Assistant",
@@ -102,6 +112,16 @@
         "TagMatchingRules": [
           {
             "TagName": "NTUT_Resturant_Finding_Assistant.Pages.Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Resturant",
+            "TypeName": "NTUT_Resturant_Finding_Assistant.Resturant",
+            "Metadata": {
+              "Common.PropertyName": "Resturant"
+            }
           }
         ],
         "Metadata": {
@@ -289,6 +309,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -529879506,
+        "Kind": "Components.Component",
+        "Name": "NTUT_Resturant_Finding_Assistant.Shared.AddResturantDialog",
+        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddResturantDialog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.AddResturantDialog"
+        }
+      },
+      {
+        "HashCode": 596513042,
+        "Kind": "Components.Component",
+        "Name": "NTUT_Resturant_Finding_Assistant.Shared.AddResturantDialog",
+        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NTUT_Resturant_Finding_Assistant.Shared.AddResturantDialog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.AddResturantDialog",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16612,59 +16665,64 @@
   "RootNamespace": "NTUT_Resturant_Finding_Assistant",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Shared\\SurveyPrompt.razor",
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Shared\\NavMenu.razor",
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\FetchData.razor",
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Shared\\AddResturantDialog.razor",
+      "TargetPath": "Shared\\AddResturantDialog.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\William\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\Pages\\_Layout.cshtml",
-      "TargetPath": "Pages\\_Layout.cshtml",
-      "FileKind": "mvc"
+      "FilePath": "d:\\NTUT_Resturant_Finding_Assistant\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

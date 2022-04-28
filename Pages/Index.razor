@@ -8,33 +8,30 @@
     <h1>These are the Resturants</h1>
     @if (Resturants != null)
     {
-        @foreach (var resturant in Resturants)
+        @foreach (var r in Resturants)
         {
             <div class="text-xl-start">
-            <span class="title">The resturant name is @resturant.Name.</span>
+            <span class="title">The resturant name is @r.Name.</span>
             <pre>
-            The style is @resturant.Style.
-            Price Range of @resturant.getPriceLabel().
-            @resturant.Distance km away.
-            Address: @resturant.Address.
-            @resturant.Rating stars on google.
+            The style is @r.Style.
+            Price Range of @r.getPriceLabel().
+            @r.Distance km away.
+            Address: @r.Address.
+            @r.Rating stars on google.
             </pre>
             </div>
+            
         }
     }
     @* <ResturantEditor Resturant= "Resturant"/> *@
 </div>
+
 @code{
     List<Resturant> Resturants = new();
+    [Parameter] public Resturant Resturant { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        @* Resturants.AddRange(new List<Resturant>
-        {
-            new Resturant{Name="Banks", Style="Fast food", PriceClass=0,Distance=1.5,Address="None",Rating=4.5},
-            new Resturant{Name="Hanks", Style="Fast food", PriceClass=0,Distance=0.5,Address="None",Rating=3},
-            new Resturant{Name="Lettos", Style="Italian", PriceClass=2,Distance=2,Address="None",Rating=5}
-
-        }); *@
-        Resturants = await HttpClient.GetFromJsonAsync<List<Resturant>>(NavigationManager.BaseUri + "Resturants");
+        Resturants = await HttpClient.GetFromJsonAsync<List<Resturant>>(NavigationManager.BaseUri + "Resturants");        
     }
+    
 }
