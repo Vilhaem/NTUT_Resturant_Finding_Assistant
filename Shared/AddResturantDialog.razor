@@ -7,31 +7,58 @@
         </div>
         <form class="dialog-body">
             <div>
-                
                 <label>Name</label>
                 <input type="text" @bind="Name" />
                 <label>Style</label>
                 <input type="text" @bind="Style" />
+                <label>Price Class</label>
+                <input type="number" min="0" max="2" @bind="PriceClass" />
+                <label>Distance</label>
+                <input type="number" min="0" max="15" step="0.5" @bind="Distance" />
+                <label>Address</label>
+                <input type="text" @bind="Address" />
+                <label>Rating</label>
+                <input type="number" min="0" max="5" step="0.5" @bind="Rating" />
+                <button class="active" @onclick="LogResturant">Finish</button>
             </div>
         </form>
+        @if (ResturantCreated)
+        {
+            <pre>
+            <span class="title">The resturant name is @newResturant.Name.</span>
+            <pre>
+            The style is @newResturant.Style.
+            Price Range of @newResturant.getPriceLabel().
+            @newResturant.Distance km away.
+            Address: @newResturant.Address.
+            @newResturant.Rating stars on google.
+            </pre>
+            </pre>
+        }
     </div>
 </div>
 
 @code{
     Resturant newResturant;
-    private int Id { get; set; }
+    AppDbContext db;
+    bool ResturantCreated;
     private string Name { get; set; }
     private string Style { get; set; }
     private int PriceClass { get; set; }
     private double Distance { get; set; }
     private string Address { get; set; }
     private double Rating { get; set; }
-    Resturant LogResturant(Resturant r)
-    {
-        newResturant = new Resturant()
-        {
 
+    void LogResturant()
+    {
+        newResturant = new Resturant{
+            Name = Name,
+            Style = Style,
+            PriceClass = PriceClass,
+            Distance = Distance,
+            Address = Address,
+            Rating = Rating
         };
-        return newResturant;
+        ResturantCreated = true;
     }
 }

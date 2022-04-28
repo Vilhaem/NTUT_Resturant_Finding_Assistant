@@ -184,6 +184,39 @@
         }
       },
       {
+        "HashCode": -1502389753,
+        "Kind": "Components.Component",
+        "Name": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
+        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1296180122,
+        "Kind": "Components.Component",
+        "Name": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
+        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -239668037,
         "Kind": "Components.Component",
         "Name": "NTUT_Resturant_Finding_Assistant.Shared.MainLayout",
@@ -276,39 +309,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1502389753,
-        "Kind": "Components.Component",
-        "Name": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
-        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1296180122,
-        "Kind": "Components.Component",
-        "Name": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
-        "AssemblyName": "NTUT_Resturant_Finding_Assistant",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "NTUT_Resturant_Finding_Assistant.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

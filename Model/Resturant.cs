@@ -10,7 +10,10 @@ namespace NTUT_Resturant_Finding_Assistant
         public double Rating { get; set; }
 
         public string ImageURL { get; set; }
-        
+        public Resturant()
+        {
+            ImageURL = "None";
+        }
         private enum PriceClassEnum
         {
             Cheap = 0,

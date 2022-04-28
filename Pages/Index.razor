@@ -4,6 +4,14 @@
 <PageTitle>Index</PageTitle>
 
 <div>
+    <h1>Try to create a Resturant Instance</h1>
+    <button class="active" @onclick="showConfigDialog" >Create</button>
+</div>
+@if(dialog)
+{
+    <AddResturantDialog/>
+}
+<div>
     @* <h1>Try to create a Resturant Instance</h1> *@
     <h1>These are the Resturants</h1>
     @if (Resturants != null)
@@ -26,8 +34,15 @@
     @* <ResturantEditor Resturant= "Resturant"/> *@
 </div>
 
+
+
 @code{
     List<Resturant> Resturants = new();
+    bool dialog = false;
+    void showConfigDialog()
+    {
+        dialog = true;
+    }
     [Parameter] public Resturant Resturant { get; set; }
     protected override async Task OnInitializedAsync()
     {
