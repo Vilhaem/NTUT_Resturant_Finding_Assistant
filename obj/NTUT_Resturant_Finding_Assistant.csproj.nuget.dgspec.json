@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
+    "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {}
   },
   "projects": {
-    "D:\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
+    "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "projectUniqueName": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
         "projectName": "NTUT_Resturant_Finding_Assistant",
-        "projectPath": "D:\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
-        "packagesPath": "C:\\Users\\WilliamLiu\\.nuget\\packages\\",
-        "outputPath": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\",
+        "projectPath": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\NTUT_Resturant_Finding_Assistant.csproj",
+        "packagesPath": "C:\\Users\\GUO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\WilliamLiu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\GUO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
