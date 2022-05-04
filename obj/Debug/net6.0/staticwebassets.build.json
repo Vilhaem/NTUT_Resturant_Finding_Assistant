@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fFEAQ2iooSaT+c7Sexz9x/PBb5VJqP+BJaL7DPACdrI=",
+  "Hash": "xVQf777LoKUWJbjVFQ2lE+kdJCsusi9E4EO0tIxAbe4=",
   "Source": "NTUT_Resturant_Finding_Assistant",
   "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NTUT_Resturant_Finding_Assistant\\wwwroot",
       "Source": "NTUT_Resturant_Finding_Assistant",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NTUT_Resturant_Finding_Assistant.styles.css",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NTUT_Resturant_Finding_Assistant.styles.css",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "NTUT_Resturant_Finding_Assistant.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NTUT_Resturant_Finding_Assistant.styles.css"
+      "OriginalItemSpec": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\bundle\\NTUT_Resturant_Finding_Assistant.styles.css"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NTUT_Resturant_Finding_Assistant.bundle.scp.css",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NTUT_Resturant_Finding_Assistant.bundle.scp.css",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "NTUT_Resturant_Finding_Assistant.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NTUT_Resturant_Finding_Assistant.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NTUT_Resturant_Finding_Assistant.bundle.scp.css"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\css\\site.css",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\favicon.ico",
       "SourceId": "NTUT_Resturant_Finding_Assistant",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GUO\\Documents\\GitHub\\NTUT_Resturant_Finding_Assistant\\wwwroot\\",
       "BasePath": "_content/NTUT_Resturant_Finding_Assistant",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
