@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BookStore.UI.Wasm
+build_property.RootNamespace = BookStore.UI.Wasm
+build_property.ProjectDir = G:\Resturant_manager\src\BookStore.UI.Wasm\
+build_property.RazorLangVersion = 3.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Resturant_manager\src\BookStore.UI.Wasm
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Components/SearchComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWFyY2hDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnRDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnREZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnREZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantListBaseComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnRMaXN0QmFzZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/Resturants/ResturantUpdate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xSZXN0dXJhbnRVcGRhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/User/UserLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxVc2VyTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Pages/User/UserRegistration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxVc2VyUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Shared/ErrorMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yTWVzc2FnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Shared/LoadingPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvYWRpbmdQcm9tcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Resturant_manager/src/BookStore.UI.Wasm/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

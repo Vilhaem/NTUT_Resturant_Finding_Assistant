@@ -1,0 +1,96 @@
+﻿@page "/resturants/delete/{Id:int}"
+
+@inject IAuthorRepository _repo
+@inject NavigationManager _navManager
+@inject IToastService _toastService
+
+<h3>Delete Author</h3>
+
+@if (!_isSuccessful)
+{
+    <ErrorMessage Message="Something Went Wrong With the Operation" />
+}
+
+@if (Id < 1 || string.IsNullOrWhiteSpace(Model.Name))
+{
+    <ErrorMessage Message="Invalid Selection. Please Try Again" />
+}
+else if (Model == null)
+{
+    <LoadingPrompt Message="Loading Author Details..." />
+}
+else
+{
+    <div class="col-md-4">
+        <table class="table table-responsive">
+            <tr>
+                <td>Name</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Style</td>
+                <td>@Model.Style</td>
+            </tr>
+            <tr>
+                <td>Distance</td>
+                <td>@Model.Distance</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td>@Model.Rating</td>
+            </tr>
+        </table>
+        <br/>
+        
+
+    </div>
+}
+<br/>
+
+<button @onclick="DeleteAuthor" class="btn btn-danger">
+    <span class="oi oi-delete"></span>
+    Delete Author
+</button>
+
+<button @onclick="BackToList" class="btn btn-outline-secondary">
+    <span class="oi oi-media-skip-backward"></span>
+    Back to List
+</button>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Author Model = new Author();
+    
+    private bool _isSuccessful = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _repo.GetSingle(Endpoints.AuthorsEndpoint, Id);
+    }
+
+    private async Task DeleteAuthor()
+    {
+        _isSuccessful = await _repo.Delete(Endpoints.AuthorsEndpoint, Model.Id);
+
+        if (_isSuccessful)
+        {
+            _toastService.ShowSuccess("Author Deleted Successfully");
+            BackToList();
+        }
+        else
+        {
+            _toastService.ShowError("Error attempting record deletion");
+        }
+    }
+
+    private void BackToList()
+    {
+        _navManager.NavigateTo("/resturants/");
+    }
+}

@@ -1,0 +1,67 @@
+﻿@page "/resturants"
+
+@inject IResturantRepository _repo
+
+<h3>Resturants List</h3>
+
+<hr />
+
+<a href="/resturants/create/" class="btn btn-primary p-2 m-2">
+    <span class="oi oi-pencil"></span>
+    Add An Resturant
+</a>
+
+<SearchComponent OnSearch="HandleSearch" />
+
+<br/>
+
+@if (resturants == null)
+{
+    <LoadingPrompt Message="Loading Resturant list..." />
+}
+else
+{
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Style</th>
+                <th scope="col">Distance</th>
+                <th scope="col">Address</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (resturants.Count() > 0 && resturants != null)
+            {
+            <Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize Items="resturants" Context="resturant">
+                <ResturantListBaseComponent resturant="resturant" />
+            </Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">Cannot find any Resturants</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+@code {
+    private IList<Resturant> resturants;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        resturants = await _repo.GetAll(Endpoints.ResturantsEndpoint);
+        StateHasChanged();
+    }
+
+    private async Task HandleSearch(string search)
+    {
+        resturants = await _repo.GetBySearch(Endpoints.ResturantsEndpoint, search);
+    }
+}

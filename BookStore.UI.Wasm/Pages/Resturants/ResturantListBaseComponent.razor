@@ -1,0 +1,33 @@
+﻿@if (this.resturant != null)
+{
+    <tr>
+        <td scope="row">@resturant.Name</td>
+        <td scope="row">@resturant.Style</td>
+        <td scope="row">@resturant.Distance</td>
+        <td scope="row">@resturant.Address</td>
+        <td scope="row">@resturant.Rating</td>
+        <td scope="row">
+            <a href="/resturants/details/@resturant.Id" class="btn btn-primary">
+                <span class="oi oi-book"></span>
+                Details
+            </a>
+            <a href="/resturants/update/@resturant.Id" class="btn btn-warning">
+                <span class="oi oi-pencil"></span>
+                Update
+            </a>
+            <a href="/resturants/delete/@resturant.Id" class="btn btn-danger">
+                <span class="oi oi-delete"></span>
+                Delete
+            </a>
+        </td>
+    </tr>
+}
+
+
+@code {
+    [Parameter]
+    public Author author { get; set; }
+
+    [Parameter]
+    public Resturant resturant { get; set; }
+}

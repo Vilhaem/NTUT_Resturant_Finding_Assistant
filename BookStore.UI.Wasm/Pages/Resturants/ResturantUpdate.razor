@@ -1,0 +1,94 @@
+﻿@page "/resturants/update/{Id:int}"
+
+@inject IAuthorRepository _repo
+@inject NavigationManager _navManager
+@inject IToastService _toastService
+
+
+<h3>Update Current Author</h3>
+
+@if (!_isSuccessful)
+{
+    <ErrorMessage Message="Error! Something went wrong with the current operation." />
+}
+else if (Model == null)
+{
+    <LoadingPrompt Message="Loading Author Data for Updating..." />
+}
+else
+{
+    <EditForm Model="Model" OnValidSubmit="UpdateAuthor">
+        
+        <DataAnnotationsValidator />
+        
+        <ValidationSummary />
+        
+        <div class="form-group">
+            <label for="firstName">Name</label>
+            <InputText @bind-Value="@Model.Name" class="form-control" id="Name" />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Style</label>
+            <InputText @bind-Value="@Model.Style" class="form-control" id="Style" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Distance</label>
+            <InputNumber @bind-Value="@Model.Distance" class="form-control" id="Distance" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Address</label>
+            <InputTextArea @bind-Value="@Model.Address" class="form-control" id="Address" />
+        </div>
+        <div class="form-group">
+            <label for="bio">Rating</label>
+            <InputNumber @bind-Value="@Model.Rating" class="form-control" id="Rating" />
+        </div>
+
+        <button class="btn btn-success" type="submit">
+            <span class="oi oi-pencil"></span>
+            Submit Changes
+        </button>
+
+        <button @onclick="BackToList" class="btn btn-outline-secondary">
+            <span class="oi oi-media-skip-backward"></span>
+            Back to List
+        </button>
+    </EditForm>
+}
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public Author Model = new Author();
+
+    private bool _isSuccessful = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _repo.GetSingle(Endpoints.AuthorsEndpoint, Id);
+    }
+
+    private async Task UpdateAuthor()
+    {
+        _isSuccessful = await _repo.Update(Endpoints.AuthorsEndpoint, Model, Model.Id);
+
+        if(_isSuccessful)
+        {
+            _toastService.ShowSuccess($"Successfully Updated Resturant: {Model.Name} .");
+            BackToList();
+        }
+        else
+        {
+            _isSuccessful = false;
+            _toastService.ShowError("An error occurred while updating the record!");
+        }
+    }
+
+    public void BackToList()
+    {
+        _navManager.NavigateTo("/resturants/");
+    }
+}
