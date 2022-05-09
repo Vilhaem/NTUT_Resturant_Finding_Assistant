@@ -1,0 +1,89 @@
+﻿@page "/resturants/details/{Id:int}"
+
+@inject IAuthorRepository _repo
+@inject NavigationManager _navManager
+@inject IToastService _toastService
+
+<h3>Author Details</h3>
+
+@if (Model == null)
+{
+    <LoadingPrompt Message="Loading Data for Details" />
+}
+else
+{
+    <div class="col-md-4">
+        <table class="table table-responsive">
+            <tr>
+                <td>Name</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Style</td>
+                <td>@Model.Style</td>
+            </tr>
+            <tr>
+                <td>Distance</td>
+                <td>@Model.Distance</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td>@Model.Rating</td>
+            </tr>
+        </table>
+
+        <br />
+
+        
+    </div>
+}
+
+<br />
+
+<button @onclick="GoToEdit" class="btn btn-outline-warning">
+    <span class="oi oi-pencil"></span>
+    Update Author
+</button>
+
+<button @onclick="GoToDelete" class="btn btn-outline-danger">
+    <span class="oi oi-circle-x"></span>
+    Delete Author
+</button>
+
+<button @onclick="BackToList" class="btn btn-outline-secondary">
+    <span class="oi oi-media-skip-backward"></span>
+    Back To List
+</button>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Author Model = new Author();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _repo.GetSingle(Endpoints.AuthorsEndpoint, Id);
+        _toastService.ShowSuccess($"Now Viewing {Model.Name} {Model.Style}");
+    }
+
+    private void BackToList()
+    {
+        _navManager.NavigateTo("/resturants/");
+    }
+
+    private void GoToEdit()
+    {
+        _navManager.NavigateTo($"/resturants/update/{Model.Id}");
+    }
+
+    private void GoToDelete()
+    {
+        _navManager.NavigateTo($"/resturants/delete/{Model.Id}");
+    }
+}

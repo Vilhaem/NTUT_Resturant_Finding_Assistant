@@ -1,0 +1,160 @@
+2022-05-05 00:29:59.6049 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 00:29:59.7336 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 01:39:02.4777 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 01:39:02.6276 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 01:39:31.6979 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 01:39:31.7148 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 01:58:05.4933 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 01:58:05.6445 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:14:18.0913 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:14:18.2213 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:24:03.4782 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:24:03.6070 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:25:28.0287 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:25:28.0501 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:27:20.6520 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:27:20.6520 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:27:21.8668 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:27:21.9165 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:27:34.4618 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:27:34.4632 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:27:49.0359 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:27:49.0359 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:27:49.4275 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:27:49.4320 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:28:52.0793 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:28:52.0793 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:28:59.7765 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:28:59.7765 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:29:27.5250 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:29:27.6575 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:29:29.4589 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:29:29.5112 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:29:31.4337 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:29:31.4337 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:29:37.0963 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:29:37.0963 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:29:38.2474 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:29:38.2474 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:29:43.3444 | INFO | BookStore.Infrastructure.Data.LoggerService | Author update attempted - id: 1
+2022-05-05 02:30:23.8043 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:30:23.8092 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:30:24.7059 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:30:24.7059 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:31:54.5762 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:31:54.7286 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:31:59.8622 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:31:59.9023 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:32:01.8793 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:32:01.8793 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:32:03.6505 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:32:03.6505 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:32:08.3004 | INFO | BookStore.Infrastructure.Data.LoggerService | Author update attempted - id: 1
+2022-05-05 02:32:08.4207 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:32:08.4207 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:32:39.2644 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 02:32:39.2644 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 02:32:39.3117 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:32:39.3117 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:32:44.0381 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:32:44.0444 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 02:32:45.3444 | INFO | BookStore.Infrastructure.Data.LoggerService | Author deletion attempted with record id: 1
+2022-05-05 02:33:14.2160 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 02:33:14.2301 | WARN | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Record with id:1 was not found
+2022-05-05 02:33:17.3526 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:33:17.3573 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:33:19.4027 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:2
+2022-05-05 02:33:19.4027 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:2
+2022-05-05 02:33:20.6551 | INFO | BookStore.Infrastructure.Data.LoggerService | Author deletion attempted with record id: 2
+2022-05-05 02:33:45.2767 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:33:45.4164 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:20.2251 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 02:34:20.2709 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 02:34:20.4086 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:20.4161 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:22.4013 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:3
+2022-05-05 02:34:22.4013 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:3
+2022-05-05 02:34:23.3608 | INFO | BookStore.Infrastructure.Data.LoggerService | Author deletion attempted with record id: 3
+2022-05-05 02:34:23.3992 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:23.4039 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:25.2650 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:3
+2022-05-05 02:34:25.2650 | WARN | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Record with id:3 was not found
+2022-05-05 02:34:26.8170 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:26.8170 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:38.3259 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 02:34:38.3259 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 02:34:38.3592 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:38.3592 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:49.0763 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 02:34:49.0763 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 02:34:49.1127 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:49.1127 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:34:58.9153 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 02:34:58.9227 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 02:34:58.9482 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:34:58.9482 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:35:05.5552 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get Authors with search parameter of: gchj
+2022-05-05 02:35:05.5727 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully returned Authors with search parameter of: gchj
+2022-05-05 02:35:07.8943 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get Authors with search parameter of: gchj
+2022-05-05 02:35:07.8943 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully returned Authors with search parameter of: gchj
+2022-05-05 02:35:11.5528 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:35:11.5564 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:35:14.3378 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:6
+2022-05-05 02:35:14.3378 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:6
+2022-05-05 02:35:15.6613 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:6
+2022-05-05 02:35:15.6613 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:6
+2022-05-05 02:35:17.2755 | INFO | BookStore.Infrastructure.Data.LoggerService | Author update attempted - id: 6
+2022-05-05 02:35:17.3357 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 02:35:17.3415 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 02:35:30.5862 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get Authors with search parameter of: ACCV
+2022-05-05 02:35:30.5891 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully returned Authors with search parameter of: ACCV
+2022-05-05 04:07:16.7855 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 04:07:16.8881 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 04:07:33.7392 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - CreateAuthor: Attempting to submit a single record
+2022-05-05 04:07:33.8788 | INFO | BookStore.Infrastructure.Data.LoggerService | Successfully submitted an Author object as: BookStore.Core.Entities.Author
+2022-05-05 04:07:33.9355 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 04:07:33.9355 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 04:07:49.7399 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Attempting to get a single record with id:1
+2022-05-05 04:07:49.7399 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthorById: Successfully retrieved the Author with id:1
+2022-05-05 10:11:14.0882 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 10:11:14.1326 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 14:07:58.4126 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 14:07:58.4508 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 20:38:33.9160 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get all Resturant records...
+2022-05-05 20:38:33.9648 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully got all Resturant records
+2022-05-05 20:40:56.0081 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 20:40:56.0129 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 20:42:09.9524 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 20:42:09.9524 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 20:42:12.1201 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 20:42:12.1201 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 20:42:37.8422 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get all Author records...
+2022-05-05 20:42:37.8422 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully got all Author records
+2022-05-05 20:44:29.6513 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: abc
+2022-05-05 20:44:29.8221 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: abc
+2022-05-05 20:45:21.9194 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:45:21.9605 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:45:28.0077 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:45:28.0457 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:45:45.8634 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:45:45.9056 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:45:49.2371 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:45:49.2757 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:32.8289 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:32.8648 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:40.2917 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:40.3282 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:42.9754 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:43.0129 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:43.5924 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:43.6306 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:44.1280 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:44.1646 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:44.6042 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:44.6432 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:46:45.2068 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Attempting to get Resturants with search parameter of: ccc
+2022-05-05 20:46:45.2440 | INFO | BookStore.Infrastructure.Data.LoggerService | Resturant - GetResturants: Successfully returned Resturants with search parameter of: ccc
+2022-05-05 20:47:03.4432 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get Authors with search parameter of: abcd
+2022-05-05 20:47:03.4669 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully returned Authors with search parameter of: abcd
+2022-05-05 20:47:05.3512 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Attempting to get Authors with search parameter of: abcd
+2022-05-05 20:47:05.3512 | INFO | BookStore.Infrastructure.Data.LoggerService | Authors - GetAuthors: Successfully returned Authors with search parameter of: abcd
